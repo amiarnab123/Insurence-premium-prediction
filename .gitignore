@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+# insurance folder
+insurance.egg-info
+project
+to
+end
+insurance.csv
+
 # Distribution / packaging
 .Python
 build/
