@@ -8,10 +8,11 @@ __pycache__/
 
 # insurance folder
 insurance.egg-info
-project/
-to/
-end/
+project
+to
+end
 insurance.csv
+artifact
 
 # Distribution / packaging
 .Python
