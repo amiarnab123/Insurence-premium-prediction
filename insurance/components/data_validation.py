@@ -134,7 +134,7 @@ class DataValidation:
                 self.data_drift(base_df=base_df, current_df=test_df,report_key_name="data_drift_within_test_dataset")
           
             #write the report
-            logging.info(f"Write report in yaml file")
+            logging.info("Write reprt in yaml file")
             utils.write_yaml_file(file_path=self.data_validation_config.report_file_path,
             data=self.validation_error)
 

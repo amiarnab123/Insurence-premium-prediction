@@ -4,7 +4,7 @@ import json
 
 client = pymongo.MongoClient("mongodb+srv://amiarnab:amiarnab100@cluster0.fugun.mongodb.net/?retryWrites=true&w=majority")
 
-DATA_FILE_PATH = "F:\ML project end to end\Insurence-premium-prediction\insurance.csv"
+DATA_FILE_PATH = "/config/workspace/insurance.csv"
 DATABASE_NAME = "INSURANCE"
 COLLECTION_NAME = "INSURANCE_PROJECT"
 

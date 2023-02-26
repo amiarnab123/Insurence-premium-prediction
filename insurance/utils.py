@@ -26,10 +26,10 @@ def write_yaml_file(file_path,data:dict):
     try:
         file_dir = os.path.dirname(file_path)
         os.makedirs(file_dir,exist_ok=True)
-        with open(file_dir,"w") as file_writer:
+        with open(file_path,"w") as file_writer:
             yaml.dump(data,file_writer)
     except Exception as e:
-        raise insuranceException(e, sys)
+        raise SensorException(e, sys)
     
 
 def convert_columns_float(df:pd.DataFrame, exclude_columns:list)->pd.DataFrame:
